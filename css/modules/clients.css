@@ -1,0 +1,44 @@
+.clients {
+    margin-top: 76px;
+}
+
+.clients__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+
+.clients__element {
+    text-align: center;
+}
+
+.clients__link {
+    fill: #A1A89D;
+    transition: fill .2s;
+}
+.clients__link:hover {
+    fill: var(--color-primary);
+}
+
+@media (max-width: 620px) {
+    .clients__element {
+        width: calc(100% / 2 - 10px) ;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .clients__element-google {
+        order: -1;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .clients__element {
+        width: 100%;
+    }
+}

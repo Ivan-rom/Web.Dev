@@ -1,4 +1,5 @@
 .nav {
+    padding-top: 30px;
     margin-bottom: 188px;
 }
 
@@ -33,6 +34,10 @@
 }
 
 @media (max-width: 1000px) {
+    .nav {
+        margin-bottom: 150px;
+    }
+
     .nav,
     .nav__list,
     .nav__sign {
@@ -46,6 +51,10 @@
 }
 
 @media (max-width: 768px) {
+    .nav {
+        margin-bottom: 100px;
+    }
+
     .nav__sign-up {
         width: 100px;
     }

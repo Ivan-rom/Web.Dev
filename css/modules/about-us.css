@@ -1,0 +1,59 @@
+.about-us {
+    margin-top: 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us__list {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-us__element {
+    width: 384px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    padding: 40px 30px 30px;
+}
+
+.about-us__name {
+    padding-left: 43px;
+    font-size: 22px;
+    line-height: 148%;
+    font-weight: 700;
+    margin-bottom: 30px;
+    background: no-repeat left center;
+}
+
+.about-us__text {
+    margin-bottom: 30px;
+    line-height: 148%;
+}
+.about-us__link {
+    text-decoration: underline;
+}
+
+.about-us__web-dev {
+    background-image: url(../../img/svg/web_dev.svg);
+}
+
+
+.about-us__shopify {
+    background-image: url(../../img/svg/shopify.svg);
+}
+
+.about-us__figma {
+    background-image: url(../../img/svg/figma.svg);
+}
+
+.about-us__php {
+    background-image: url(../../img/svg/php.svg);
+    padding-bottom: 15px;
+}
+
+.about-us__btn {
+    margin-top: 80px;
+}

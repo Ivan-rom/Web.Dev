@@ -76,6 +76,7 @@ button {
     text-align: center;
     line-height: 58px;
     transition: all .2s;
+    background: inherit;
 }
 
 .btn:hover {

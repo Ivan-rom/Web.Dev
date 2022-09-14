@@ -1,0 +1,28 @@
+.mail__form {
+    position: relative;
+    margin-top: -2px;
+    width: 174px;
+    height: 40px;
+    padding: 12px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mail__input {
+    background: none;
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+    width: 124px;
+}
+.mail__submit {
+    position: relative;
+    z-index: 1;
+    border: none;
+    background: url(../../img/svg/mail_arrow.svg) no-repeat;
+    width: 16px;
+    height: 16px;
+
+}

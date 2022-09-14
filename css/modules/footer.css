@@ -1,0 +1,33 @@
+@import "contact-us.css";
+@import "contacts.css";
+@import "mail.css";
+
+.footer {
+    margin-top: 140px;
+}
+
+.footer__infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 77px;
+    font-size: 16px;
+    line-height: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer__title {
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 39px;
+}
+
+.footer__element:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+@media (max-width: 756px) {
+
+}

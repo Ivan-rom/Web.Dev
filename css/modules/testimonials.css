@@ -1,0 +1,96 @@
+.testimonials__block {
+    background-image: linear-gradient(to right, transparent 12.5%, #F2F2F2 12.5%, #F2F2F2 88.5%, transparent 88.5%);
+    padding-top: 103px;
+    padding-bottom: 30px;
+}
+.testimonials__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+.testimonials__element {
+    padding: 40px 24px 40px 32px;
+    background-color: var(--color-bg);
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+    width: 380px;
+}
+
+.testimonials__subsubtitle,
+.testimonials__text,
+.testimonials__stars {
+    margin-bottom: 20px;
+}
+
+.testimonials__subsubtitle,
+.testimonials__name {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #32435C;
+}
+
+.testimonials__text {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #6A635B;
+}
+
+.testimonials__stars {
+    display: flex;
+    gap: 2px;
+}
+
+.testimonials__buttons {
+    display: flex;
+    gap: 4px;
+    background: var(--color-bg);
+    padding: 8px;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 70px;
+}
+
+.testimonials__button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background: none;
+    fill: var(--color-text);
+    transition: all .2s;
+}
+
+.testimonials__button:hover,
+.testimonials__button:active {
+    fill: var(--color-bg);
+    background: #313131;
+    box-shadow: 0px 8px 15px rgba(72, 72, 138, 0.08);
+}
+
+@media (max-width: 1230px) {
+    .testimonials__element {
+        width: 100%;
+        padding: 24px 10px 24px 18px;
+    }
+
+    .testimonials__subsubtitle,
+    .testimonials__text,
+    .testimonials__stars {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    .title.testimonials__title {
+        margin-bottom: 45px;
+    }
+
+    .testimonials__block {
+        padding-top: 70px;
+    }
+}

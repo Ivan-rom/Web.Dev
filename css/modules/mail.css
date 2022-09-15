@@ -9,7 +9,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid transparent;
 }
+
+.mail__form:hover {
+    border: 2px solid var(--color-primary);
+}
+
 .mail__input {
     background: none;
     border: none;
@@ -17,6 +23,7 @@
     line-height: 14px;
     width: 124px;
 }
+
 .mail__submit {
     position: relative;
     z-index: 1;
@@ -24,5 +31,5 @@
     background: url(../../img/svg/mail_arrow.svg) no-repeat;
     width: 16px;
     height: 16px;
-
+    cursor: pointer;
 }

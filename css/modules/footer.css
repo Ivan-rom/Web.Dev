@@ -4,16 +4,16 @@
 
 .footer {
     margin-top: 140px;
+    font-size: 16px;
+    line-height: 100%;
 }
 
 .footer__infos {
     display: flex;
     justify-content: space-between;
     margin-bottom: 77px;
-    font-size: 16px;
-    line-height: 100%;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 45px 15px;
 }
 
 .footer__title {
@@ -28,6 +28,34 @@
     margin-bottom: 28px;
 }
 
-@media (max-width: 756px) {
+.footer__copyright {
+    padding: 40px 0;
+    border-top: 1px solid #EDEDED;
+    text-align: center;
+}
 
+@media (max-width: 720px) {
+    .footer__contacts,
+    .footer__mail,
+    .footer__resources,
+    .footer__company {
+        width: calc(50% - 15px);
+    }
+    .footer__resources,
+    .footer__company {
+        order: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__contacts,
+    .footer__mail,
+    .footer__resources,
+    .footer__company{
+        width: 100%;
+    }
+
+    .footer__mail{
+        order: 1;
+    }
 }

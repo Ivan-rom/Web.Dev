@@ -19,7 +19,6 @@ html {
 
 body {
     margin: 0 auto;
-    max-width: 1440px;
     min-width: 320px;
     min-height: 100vh;
     background: var(--color-bg);
@@ -143,5 +142,7 @@ section:not(:first-child) {
     .header {
         background-image: none;
     }
-
+    section:not(:first-child) {
+        margin-top: 100px;
+    }
 }
